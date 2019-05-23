@@ -1,6 +1,6 @@
 # quinsteet
 
-> A Vue.js project
+> Live demo http://priceproperty.xbay.io/
 
 ## Build Setup
 
