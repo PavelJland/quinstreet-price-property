@@ -1,25 +1,33 @@
-<template>
-  <div id="app">
-    <Logo/>
-    <Form/>
-  </div>
+<template lang="pug">
+  #app
+    Header
+    .container
+      .row
+        .col-sm-12.col-md-6
+          Form
+        .col-sm-12.col-md-6
+          Table
 </template>
 
 <script>
-/* eslint-disable */ 
-import Form from './components/Form'
-import Logo from './components/Logo'
+import Form from './components/Form';
+import Header from './components/Header';
+import Table from './components/Table';
 
 export default {
   name: 'App',
   components: {
     Form,
-    Logo
-  }
-}
+    Header,
+    Table,
+  },
+};
 </script>
 
 <style>
+@import './assets/css/bootstrap.min.css';
+@import './assets/css/font-awesome.css';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
